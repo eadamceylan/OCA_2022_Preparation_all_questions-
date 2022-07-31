@@ -14,14 +14,15 @@ public class ElectricAccount{
     //line1
     public void addKWh(double kWh){
         if(kWh>0){
-        this.kWh+=kWh;
-        this.bill=this.kWh*this.rate; }}
+        this.kWh += kWh;
+        this.bill= this.kWh * this.rate; }}
    // public static void main(String[] args) {
-		
-	
+
+
    
 }}
-/*Any amount of electricity used by a customer
+/*
+Any amount of electricity used by a customer
  (represented by an instance of the Customer class)
  must contribute to the customer's bill
   (represented by the member variable bill)
@@ -62,6 +63,6 @@ A. Option A
   A. Option A
   B. Option B
   C. Option C
-   D. Option D
+  D. Option D
    Answer: B
  */

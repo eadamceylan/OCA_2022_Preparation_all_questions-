@@ -16,6 +16,7 @@ public class StockRoom {
     }
 
     public static void main(String[] args) {
+        qty="5";
         StockRoom k1=new StockRoom();
         k1.sell(5);
         k1.printStock("Sold");

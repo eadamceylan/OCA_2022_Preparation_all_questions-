@@ -1,6 +1,6 @@
 package q100.p2;
 
-import q100.*;
+import q100.p1.Acc;
 
 public class Test extends Acc {
 	    
@@ -12,7 +12,7 @@ public class Test extends Acc {
 
 	        Acc obj2 = new Test();
 	        obj2.s = 4;
-	   //     obj2.r = 5;
+//	        obj2.r = 5;
 
 
 	        Test obj1 = new Test();

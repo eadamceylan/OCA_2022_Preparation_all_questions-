@@ -1,4 +1,4 @@
-package q100;
+package q100.p1;
 
 public class Acc {
 

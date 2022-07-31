@@ -3,12 +3,12 @@ package q102;
 public class Q102 {
 
 	
-	//Whats is the output?
+	//What is the output?
     public static void main(String[] args) {
         String[] planets ={"Mercury", "Venus", "Earth", "Mars"};
 
-        System.out.println(planets.length);
-        System.out.println(planets[1].length());
+        System.out.print(planets.length);
+        System.out.print(planets[1].length());
     }
     //ANSWER IS : E. 4 5
 

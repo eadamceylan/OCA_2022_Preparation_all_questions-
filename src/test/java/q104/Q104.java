@@ -16,13 +16,13 @@ public class Q104 {
 	class DerivedA extends Base {
 	    public void test() {
 
-	    	System.out.println("DerivedA ");
+	    	System.out.print("DerivedA");
 	    }
 	}
 	//DerivedB.java:
 	class DerivedB extends DerivedA {
 	    public void test () {
-	        System.out.println("DerivedB ");
+	        System.out.print("DerivedB");
 	    }
 	    public static void main (String[] args) {
 	        Base b1 = new DerivedB();

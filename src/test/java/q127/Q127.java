@@ -1,5 +1,7 @@
 package q127;
 
+import java.util.Arrays;
+
 public class Q127 {
 
 	public static void main(String[] args) {
@@ -22,6 +24,8 @@ public class Q127 {
 		grid [0][1] = 'o';
 		grid [2][2] = 'x';
 		grid [1][2] = 'o';
+		grid [2][1] = 'x';
+		System.out.println(Arrays.deepToString(grid));
 		
 		// line n1
 	}

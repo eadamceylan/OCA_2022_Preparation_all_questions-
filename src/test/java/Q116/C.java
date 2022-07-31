@@ -19,7 +19,7 @@ public class C extends A {
         A b2=new C();
 
         b1=(A)b2;      //line1
-        A b3=(B) b2;   //line2 C cannot be cast to Q116.B
+        A b3= b2;   //line2 C cannot be cast to Q116.B
         b1.test();
         b3.test();
     }

@@ -18,15 +18,15 @@ public class Q126 {
 //	x--;
 //	System.out.print(array[x]);//ArrayIndexOutOfBoundsException
 //			            //Index -1 out of bounds for length 5
-//	}while (x>0);
+//	}while (x>=0);
 
 
 //C.
-//	 while (x>=0) {    // ArrayIndexOutOfBoundsException
-//	System.out.print(array[x]); 
-		//Index 5 out of bounds for   length 5
-//	x--;
-//	}
+	 while (x>0) {    // ArrayIndexOutOfBoundsException
+	System.out.print(array[x]);
+//		Index 5 out of bounds for   length 5
+	x--;
+	}
 
 //D.
 
@@ -36,9 +36,9 @@ public class Q126 {
 //	}while (x>=0);
 //	
 
-		while (x > 0) {
-			System.out.print(array[--x]);
-
-			//Answer A ve E print eder ve 50 40 30 20 10 reverse olarak
-		}
+//		while (x > 0) {
+//			System.out.print(array[--x]);
+//
+//			//Answer A ve E print eder ve 50 40 30 20 10 reverse olarak
+//		}
 	}}
