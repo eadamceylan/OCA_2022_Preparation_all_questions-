@@ -26,10 +26,15 @@ public class Question135 {
 					new Planet ("Mars", 2),
 							
 			};
-			
+			for (Planet p : planets) {
+				System.out.println(p);
+			}
 			System.out.println(planets);
 			System.out.println(planets[2].name);
 		    System.out.println(planets[2].moons);
+
+
+
 
 		}
 		

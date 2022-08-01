@@ -13,18 +13,18 @@ public class Question134 {
 
 	//
 		//A 
-//		abstract class A3 {
-//			private static int i;
-//			public void doStuff() {}
-//			public A3() {}
+		abstract class A3 {
+			private static int i;
+			public void doStuff() {}
+			public A3() {}
 	//
-//		}
+		}
 
 		//B
-//		final class A1 {
-//			public A1() {
-//			}
-//		}
+		final class A1 {
+			public A1() {
+			}
+		}
 
 		// C --> We can not declare top level class as private. Java allows only public and
 		//       default modifier for top level classes in java. Inner classes can be private.
@@ -36,17 +36,17 @@ public class Question134 {
 
 
 		//D
-		//class A4 {
-	   // protected static final int i =10 ;
-	    //private A4() { }
-	//}
+		class A9 {
+	    protected static final int i =10 ;
+	    private A9() { }
+	}
 
 		//E -->  class can be final or abstract, not both of them
 //		final abstract class A5 {
 //	    protected static int i;
 //	    void doStuff() { }
 //	    abstract void doIt();
-	//}
+//	}
 
 
 

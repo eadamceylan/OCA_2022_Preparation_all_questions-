@@ -19,6 +19,7 @@ public class Question131 {
 
                   Car() {
                       super(10); // line n2
+                      y = 20;
                   }
 
                   Car(int y) {
