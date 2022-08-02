@@ -11,6 +11,7 @@ public class Q156 {
 		for (int i=0;i<num.length;i++) {
 			for(int j=0;j<num[i].length;j++){
 				num [i][j]=10;
+
 				
 			}
 	}

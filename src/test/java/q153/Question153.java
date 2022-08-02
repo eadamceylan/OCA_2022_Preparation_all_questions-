@@ -3,13 +3,19 @@ public class Question153 {
 
 
 	//public	class Fieldint{
-			Character c;
+			char c;
+			Character c2;
 			boolean b;
+			Boolean b2;
 			float f;
+			Float f2;
 			void printAll() {
 				System.out.println("c= "+c);//c=
+				System.out.println("c2= "+c2);//c2=
 				System.out.println("b= "+b);//b=false
+				System.out.println("b2= "+b2);//b2=false
 				System.out.println("f= "+f);//f=0.0
+				System.out.println("f2= "+f2);//f2=0.0
 			}
 			
 		

@@ -2,36 +2,39 @@ package q146;
 
 public class Question146 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-		String[] strs=new String[]{"1","2"};
-
-		int idx=0;
-		for (String s : strs){
-		strs[idx].concat("element "+idx);
-idx++;
-			System.out.println(idx);
-		//we can not concat if array is null bos olan array e concat yapamiyrz
+        String[] strs = new String[2];
+		strs[0] = "A";
+        int idx = 0;
+        for (String s : strs) {
+			strs[idx].concat("element " + idx);
+			idx++;
+//            System.out.println(idx);
+			//we can not concat if array is null bos olan array e concat yapamiyrz
 //
 //		for (String s : strs) {
 //			//strs[idx].idx;
 //			idx++;
 //		}
-//
-		for (idx = 0; idx < strs.length; idx++) {
-			System.out.println(strs[idx]);
+		}
+            for (idx = 0; idx < strs.length; idx++) {
+                System.out.println(strs[idx]);
 //			
 //			//Answer: D
 //			
-		}}}}
-		/*
-		 * What is the output?
-		 * A. Element 0Element 1
-		 * B. Null element 0Nullelement 1
-		 * C. NullNull
-		 * D. A null pointer exception is thrown at runtime.
-		 */
-		//second version
+            }
+        }
+    }
+
+/*
+ * What is the output?
+ * A. Element 0Element 1
+ * B. Null element 0Nullelement 1
+ * C. NullNull
+ * D. A null pointer exception is thrown at runtime.
+ */
+//second version
 //		String[] strs = {"A", "B"};
 //		int idx = 0;
 //		for (String s : strs) {
@@ -54,7 +57,7 @@ idx++;
 //D.	A 0
 //		B 1
 
-	//}
+//}
 
 
 
