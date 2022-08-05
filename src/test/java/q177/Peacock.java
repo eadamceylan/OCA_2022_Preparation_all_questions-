@@ -20,8 +20,8 @@ package q177;
 //	//at q177.Peacock
 // Peacock p = new Peacock (); Bird p = (Bird) b;
 //
-//             Bird b = new Peacock ();
-			 Peacock p = new Peacock();
+             Bird b = new Peacock ();
+			 Peacock p = (Peacock) b;
 			p.fly();
 			p.dance();
 

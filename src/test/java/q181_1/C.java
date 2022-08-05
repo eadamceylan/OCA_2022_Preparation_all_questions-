@@ -1,14 +1,14 @@
 
 package q181_1;
 
-import java.util.ArrayList;
-
-// package name must be
-
-class A {
-	 public void a(){}
-	    int a;
-	}
+//import java.util.ArrayList;
+//
+//// package name must be
+//
+//class A {
+//	 public void a(){}
+//	    int a;
+//	}
 
 //public class B {
 //    private int doStuff(){
@@ -21,14 +21,14 @@ class A {
 //
 //
 //
-//	//C.Java:
-//	//import java.io.*;  // import package tan once yapilmis bundan dolayi bu da olmaz
-//	//package p1;
-//	class C {
-//	    public void main (String fileName) throws IOException {}
-//	}
-//
-//	}
+
+	import java.io.*;  // import package tan once yapilmis bundan dolayi bu da olmaz
+	package p1;
+	class A {
+	    public void main (String fileName) throws IOException {}
+	}
+
+
 
 
 	/*

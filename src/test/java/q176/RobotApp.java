@@ -1,9 +1,7 @@
 package q176;
 
 abstract class Robot implements Speakable {
-	public  void process(){
-
-    };
+	public abstract void process();
 	 //Bu method abstract olmali cunki abstract class must have abstract method
 							//or non abstract ama body olmali
 }                           //public abstract void process();--> Helping... Done print eder(answer

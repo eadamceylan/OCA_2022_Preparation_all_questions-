@@ -2,7 +2,7 @@ package q179;
 
 public class TTest {
 	
-	static int count = 0; //static son degeri aldi
+	int count = 0; //static son degeri aldi
 	int i= 0;   //static int i --> olursa 5 : 5 print eder 
 	
 public void changeCount () {
