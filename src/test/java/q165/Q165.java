@@ -18,7 +18,7 @@ String s1="Moon";
 
 Q165 s2=new Q165("Moon");
 
-if ((s1=="Moon")&&(s2.toString().equals("Moon"))) {
+if ((s1=="Moon")&&(s2.equals("Moon"))) {
 	System.out.println("A");
 }else {
 	System.out.println("B");

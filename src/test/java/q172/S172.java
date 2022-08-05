@@ -7,7 +7,7 @@ public class S172 {
 int num = 5;
 do {   //--num olursa cevap--> 4 print eder
 System.out.print(num-- +" "); //num-- olursa cevap--> 5 print 
-}while (num==0); //num==0 --> 5 print eder,
+}while (num!=0); //num==0 --> 5 print eder,
                  //num!=0 --> 54321 print ediyor                 
 	}
 

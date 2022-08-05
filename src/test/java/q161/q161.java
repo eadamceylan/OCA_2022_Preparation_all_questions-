@@ -3,7 +3,7 @@ package q161;
 public class q161 {
 
 	public static void main(String[] args) {
-//		Boolean  avalible ="TRUE";
+//		Boolean  available ="TRUE";
 //		String tmAuthor=author,author="MC Donald";
 		Double price =200D;
 		Integer pages =20;
