@@ -23,7 +23,7 @@ package q181_1;
 //
 
 	import java.io.*;  // import package tan once yapilmis bundan dolayi bu da olmaz
-	package p1;
+//	package p1;
 	class A {
 	    public void main (String fileName) throws IOException {}
 	}
