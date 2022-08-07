@@ -1,7 +1,7 @@
 package q186;
 
 class S1{
-    protected void display(int x){
+    public void display(int x){
         System.out.println("Parent" +x);
     }
 }

@@ -9,7 +9,8 @@ package q191;
         var2 = 'e';
 
         Vowel obj1 = new Vowel();
-        Vowel obj2 =obj1;  // **************
+        Vowel obj2 = obj1;  // **************
+       // Vowel obj2 = new Vowel();  // **************
         // object are equalized, so change on any one of them will affect both
         obj1.var = 'o';  // both are o
         obj2.var = 'i'; // both are i

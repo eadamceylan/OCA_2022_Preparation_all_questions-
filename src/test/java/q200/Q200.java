@@ -14,11 +14,11 @@ public class Q200 {
         ps.add(p2); // burada deger bir daha baska bir degere assign yapilmak zorunda degil cunku burada ekleme
         // yapiliyor
 
-   	     int f=ps.indexOf(p2);// f int tipinde bir degisken oldugunu f>=0 dan anliyoruz .
+//   	     int f=ps.indexOf(p2);// f int tipinde bir degisken oldugunu f>=0 dan anliyoruz .
         // O zaman bize int donduren bir method
         // akla getirmeli oda indexOf(p2)tur bir elemanin indexsini bulur
         //  indexlerde integerdir
-      //  int f= ps.indexOf(new Patient("Mike")); //object bos olmus olur
+        int f= ps.indexOf(new Patient("Mike")); //object bos olmus olur
 
 //		 Patient p=new Patient("Mike");
 ////		 ps.add(p);

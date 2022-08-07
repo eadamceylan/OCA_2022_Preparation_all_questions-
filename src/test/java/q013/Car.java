@@ -19,9 +19,12 @@ class Vehicle{
 	Car(int y){
 		super(y); 
 		this.y =y;
+
+		System.out.println(x);
 	}
+
 	public String toString() {
-		return x*y+ "";
+		return super.x + " : " + this.y;
 	}
 
 	 public static void main(String[] args) {

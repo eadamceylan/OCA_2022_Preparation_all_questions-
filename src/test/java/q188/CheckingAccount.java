@@ -19,10 +19,10 @@ public class CheckingAccount {
     	amount += x;					//amount = amount + x; 
     }
     public static void main(String[] args) {
-        CheckingAccount acct = new CheckingAccount((int)(Math.random()*1000)); //Math.rondom() rondom bir rakam olustururyor.
+        CheckingAccount acct = new CheckingAccount((int)(Math.random()*1000)); //Math.rondom() rondom bir rakam olustururyor.( between 0 and 1)
         // line n1
-        acct.setAmount(-acct.getAmount());  // ==> negative random numbers
-        acct.amount = 0;  // ==> 0
+//        acct.setAmount(-acct.getAmount());  // ==> negative random numbers
+//        acct.amount = 0;  // ==> 0
         acct.setAmount(0);  // ==> 0
 //         acct.getAmount()=0; // Unresolved compilation problem:
 //         this.amount = 0; // Unresolved compilation problem:

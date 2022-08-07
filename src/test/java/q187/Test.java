@@ -3,9 +3,7 @@ package q187;
 public class Test{
 
     public static void main(String[] args) {
-        String [] arg = new String [1];
-        arg[0]="Hello";
-        if (arg[0].equals("hello") ? true : false){
+        if (args[0]=="Hello" ? true : false){
             System.out.println("Success");
         }else {
             System.out.println("Failure");

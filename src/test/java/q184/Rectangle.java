@@ -5,22 +5,27 @@ public class Rectangle {
     private double heigth;
     private double area;
 
-    public void setLength(double length){
+    public void setLength(double length) {
 
         this.length = length;
-        setArea();
+//        setArea();
     }
-    public void setHeigth(double heigth){
+
+    public void setHeigth(double heigth) {
 
         this.heigth = heigth;
         setArea();
+    }
+    private void setArea() {
 
-
+        area = length * heigth;
     }
 
-   private  void setArea(){
-
-        area = length*heigth;
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle();
+        r.setLength(10);
+        r.setHeigth(20);
+        System.out.println(r.area);
     }
 }
 
