@@ -10,4 +10,25 @@ public class Q204 {
      E. Object is the root class of all other objects.
      F. A main method must be declared in every class.
      Answer: B C F  */
+    int a=10;
+    int b=20;
+    public int sum(int a, int b){
+        this.a=a;
+        this.b=b;
+        return a+b;
+    }
+}
+
+class Student extends Q204 {
+
+    public int sum(int a,int b){
+        super.a=a;
+        super.b=b;
+        return a+b;
+    }
+
+    public static void main(String[] args) {
+        Student s=new Student();
+        System.out.println(s.a+s.b);
+    }
 }

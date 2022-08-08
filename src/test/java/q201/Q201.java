@@ -1,5 +1,7 @@
 package q201;
 
+import java.util.Arrays;
+
 public class Q201 {
 }
 class Student {
@@ -11,9 +13,11 @@ class Student {
 class Test{
     public static void main(String[] args){
 
-        Student [] students= new Student[3];
+        Student [] students= new Student[3];;
+        students[0]=new Student("A");
         students[1]=new Student("Richard");
         students[2]=new Student("Donald");
+
         for( Student s:students){
             System.out.println(" "+s.name);
         }

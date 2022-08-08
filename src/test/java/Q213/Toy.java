@@ -1,23 +1,32 @@
 package Q213;
 
-//abstract class Toy {
-//    int price;
-//    //line n1;
+abstract class Toy {
+    int price;
+
+    //line n1;
 //
 //
 ////which code fragments are valid at line n1?
-//  public static void insertToy(){
-//        /*  code goes here  */
+    public static void insertToy() {
+        /*  code goes here  */
+    }
+
+    //    final Toy getToy() {
+//        return new Toy();
 //    }
-// final Toy getToy(){
-////        return new Toy();
-////   }
-// //c public void printToy() // add body abstract olmadigi icin body ekle
-//  public int calculatePrice(){
-//       return price;
-//   }
-// public abstract int computeDiscount();
-//}
+    //c
+    public void printToy(){
+
+    } // add body abstract olmadigi icin body ekle
+
+    public int calculatePrice() {
+        return price;
+    }
+
+    public abstract int computeDiscount();
+
+}
+  //}
 //    A. Option A
 //    B. Option B
 //    C. Option C
