@@ -11,22 +11,22 @@ abstract class Toy {
         /*  code goes here  */
     }
 
-    //    final Toy getToy() {
-//        return new Toy();
+//    Toy getToy() {
+//        return new Toy(); // We cannot creat an instance of an abstract class.
 //    }
-    //c
-    public void printToy(){
+//    c
+        public void printToy () {
 
-    } // add body abstract olmadigi icin body ekle
+        } // add body abstract olmadigi icin body ekle
 
-    public int calculatePrice() {
-        return price;
+        public int calculatePrice () {
+            return price;
+        }
+
+        public abstract int computeDiscount ();
+
     }
-
-    public abstract int computeDiscount();
-
-}
-  //}
+//}
 //    A. Option A
 //    B. Option B
 //    C. Option C

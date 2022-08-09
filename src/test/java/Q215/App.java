@@ -1,5 +1,5 @@
 package Q215;
-class LogFileException extends Exception{}
+class LogFileException extends RuntimeException{}
 class AccessViolationException extends RuntimeException{}
 public class App {
     public static void main(String[] args) throws  LogFileException{
@@ -13,9 +13,9 @@ public class App {
              System.out.println("completed.");
          }
     }
-    public void  process() {
+    public void  process () {
         System.out.println("Processed");
-//        throw new LogFileException();
+        throw new LogFileException();
    }
     public void open(){
         System.out.println("Opened.");
@@ -28,3 +28,6 @@ public class App {
 //        C. At line 2, replace throws LogFileException with throws AccessViolationException
 //        D. At line 7, insert throw new LogFileException ();
 //Answer: D cvp B i think
+
+// Exp: We have to extend the LogFileException to RunTimeException
+//      to fix the error or add an exception to the method.
