@@ -27,11 +27,13 @@ class DerivedB extends  DerivedA{
     }
 }
 /*What is the result?
+
 A. BaseDerivedA
 B. BaseDerivedB
 C. DerivedBDerivedB
 D. DerivedBDerivedA
- E. A ClassCastException is thrown at runtime.
+E. A ClassCastException is thrown at runtime.
+
 Answer: C
 
  */
