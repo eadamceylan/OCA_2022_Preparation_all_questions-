@@ -7,7 +7,7 @@ public class Q003 {
 	public static void main(String[] args) {
 		String date = LocalDate
 							  .parse("2016-11-01") 											// time is not assigned here
-							  .format(DateTimeFormatter.ISO_DATE);  	//_TIME should be removed
+							  .format(DateTimeFormatter.ISO_DATE_TIME);  	//_TIME should be removed
 		System.out.println(date);
 	}
 }

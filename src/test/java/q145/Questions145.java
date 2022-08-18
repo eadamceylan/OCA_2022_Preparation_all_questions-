@@ -16,7 +16,7 @@ public class Questions145 { //Class name is SumTest
 	    }
 
 	    public static void main(String[] args) {  //once primitive cagrilir
-			doSum(1, 2);
+
 	        doSum(10, 20);
 	        doSum(10.0, 20.0);
 
