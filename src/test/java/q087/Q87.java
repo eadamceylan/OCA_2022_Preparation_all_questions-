@@ -13,11 +13,13 @@ class MarkList{
 
         public static void main(String[] args) {
             MarkList obj1 = new MarkList();
+            MarkList obj5 = new MarkList();
             MarkList obj2 = obj1;
             MarkList obj3 = null;
             obj2.num = 60;
+            obj5.num = 80;
             graceMarks(obj2);
-            System.out.println(obj2.num);
+//            System.out.println(obj2);
         }
     }
 

@@ -5,7 +5,7 @@ interface Exportable{
 }
 class Tool implements Exportable{
 	//public yerinde protected var normalde
-	   public void export() {						// line n1
+	public void export() {						// line n1
 
 	    	System.out.println("Tool::export");
 	}

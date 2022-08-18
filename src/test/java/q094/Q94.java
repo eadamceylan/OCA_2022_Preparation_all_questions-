@@ -1,41 +1,41 @@
 package q094;
 
 
-
 public class Q94 {
 
 }
+
 class Person {
     String name;
     int age = 25;
 
-    Person(String name){    // line n1
+    Person(String name) {    // line n1
 
         setName(name);
     }
 
-    public Person(String name, int age){    // line n2
-//        Person(name);
+    public Person(String name, int age) {    // line n2
+        setName(name);
         setAge(age);
     }
 
     // setter and getter methods go here
-    public void setName(String name){
+    public void setName(String name) {
 
-        this.name=name;
+        this.name = name;
     }
 
-    public void setAge(int age){
-        this.age=age;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public String show(){
+    public String show() {
         return name + " " + age;
     }
 
     public static void main(String[] args) {
         Person p1 = new Person("Jesse");
-        Person p2 = new Person("Walter",52);
+        Person p2 = new Person("Walter", 52);
         System.out.println(p1.show());
         System.out.println(p2.show());
     }
