@@ -7,20 +7,21 @@ public class Customer {
         acct.addKWh(kWh);
     }
 
-public class ElectricAccount{
-    private  double kWh;
-    private double rate=0.07;
+public class ElectricAccount {
+    private double kWh;
+    private double rate = 0.07;
     private double bill;
+
     //line1
-    public void addKWh(double kWh){
-        if(kWh>0){
-        this.kWh += kWh;
-        this.bill= this.kWh * this.rate; }}
-   // public static void main(String[] args) {
+    public void addKWh(double kWh) {
+        if (kWh > 0) {
+            this.kWh += kWh;
+            this.bill = this.kWh * this.rate;
+        }
 
-
-   
-}}
+    }
+}
+}
 /*
 Any amount of electricity used by a customer
  (represented by an instance of the Customer class)

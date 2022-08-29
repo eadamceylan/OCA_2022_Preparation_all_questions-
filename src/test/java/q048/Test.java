@@ -4,8 +4,8 @@ public class Test {
 	//public static void main(String[] args) {
 	
 		// line n1
-	Test() {}
-	String str = "Java";
+//	Test() {}
+//	String str = "Java";
 	
 	//for(int iVal = 0; iVal <=5; iVal++){//main method olmasi gerek
 		

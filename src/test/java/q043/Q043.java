@@ -10,7 +10,7 @@ public class Q043 {
 			String[] arr = {"Hi", "How", "Are", "You"};
 			List<String> arrList = new ArrayList<>(Arrays.asList(arr));
 			if(arrList.removeIf((String s) -> { return s.length() <=2;} )){ // < 2
-		System.out.println(arrList +" removed"); //s causes compilation error
+		//System.out.println(s +" removed"); //s causes compilation error
 			}
 		}
 	}

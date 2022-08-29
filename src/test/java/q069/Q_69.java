@@ -7,7 +7,7 @@ class Test {
     public static void main(String[] args) {
 
     String[][] chs = new String[5][2];
-    chs[0] = new String[2];
+    chs[0] = new String[5];
     chs[1] = new String[2];
     int i = 97;
        //System.out.println(chs[1].length);

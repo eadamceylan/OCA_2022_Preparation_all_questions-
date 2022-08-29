@@ -1,7 +1,7 @@
 package Q112;
 public class App {
-     static int count; //normalde static yok burda
-    public  static  void displayMsg(){
+   static int count; //normalde static yok burda
+    public static void displayMsg(){
         count++;                                         //line1
         System.out.println("Welcome"+"Visit Count"+count); //line2
     }

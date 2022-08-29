@@ -12,7 +12,7 @@ public class Test extends Acc {
 
 	        Acc obj2 = new Test();
 	        obj2.s = 4;
-//	        obj2.r = 5;
+	        ((Test) obj2).r = 5;
 
 
 	        Test obj1 = new Test();
