@@ -23,7 +23,7 @@ if ((s1=="Moon")&&(s2.equals("Moon"))) {
 }else {
 	System.out.println("B");
 }
-if (s1.equalsIgnoreCase(s2.s)) {
+if (s1.equals(s2.s)) {
 	System.out.println("C");
 }else {
 	System.out.println("D");

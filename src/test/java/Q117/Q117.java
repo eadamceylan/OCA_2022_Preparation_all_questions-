@@ -6,7 +6,7 @@ public class Q117 {
         ta=ta.concat("B ");//A B
         String tb="C ";
         ta=ta.concat(tb);//A B C
-        ta = ta.replace('C','D');// A B C
+        ta.replace('C','D');// A B C
         ta=ta.concat(tb); //A B C C
         System.out.println(ta);
     }

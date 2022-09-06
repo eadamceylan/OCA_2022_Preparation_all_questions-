@@ -1,5 +1,4 @@
 package q169.clothing.pants;
-
 import static q169.clothing.Shirt.getColor;
 
 public class Jeans {

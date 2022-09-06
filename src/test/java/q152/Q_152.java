@@ -16,9 +16,9 @@ public class Q_152 {
                 break;
 
             } else {
-
+//                continue;
                 System.out.println(e);
-                continue;
+
 
             }
 

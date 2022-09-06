@@ -5,7 +5,7 @@ public class Question142 {
 	public static void main(String[] args) {
 
 		int wd = 0;
-        String days[] = {"sun", "mon", "wed"};
+        String days[] = {"sun", "mon", "wed", "sat"};
         for (String s: days){
             switch (s){
                 case "sat":
