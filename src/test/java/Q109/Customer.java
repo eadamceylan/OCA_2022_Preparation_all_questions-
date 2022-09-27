@@ -1,5 +1,5 @@
 package Q109;
-//Given these two classes
+//Given these two classes.
 
 public class Customer {
     ElectricAccount acct=new ElectricAccount();
